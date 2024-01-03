@@ -1,0 +1,86 @@
+*{
+    padding: 0;
+    margin: 0%;
+}
+
+.main{
+    background-color:rgb(13, 32, 13);
+    height:100vh;
+    
+  
+}
+.box2 h2{
+    /* text-align: center; */
+    animation-name: hola;
+    animation-duration: 0.8s;
+     color:white;
+    transition: 0.8s all ease;
+    text-align: center;
+}
+
+.box1 h1{
+    color: azure;
+    text-align: center;
+}
+
+@keyframes hola{
+      50%{
+        transform: scale(150%);
+      }
+
+      100%{
+        transform: scale(100%);
+      }
+}
+
+
+.chatbot{
+    text-align: center;
+    height: fit-content;
+}
+
+textarea::placeholder{
+    text-align: center;
+    padding-top: 100px;
+}
+
+
+
+.boxandicon{
+    text-align: center !important;
+}
+
+.questionbox{
+    padding-left: 380px !important;
+   
+}
+
+.question{
+    width:550px !important;
+    padding: 20px;
+}
+
+.icon{
+    background-color: #8a2be2;
+    /* padding: 20px; */
+}
+
+.none{
+    background: none;
+    padding: 20px;
+}
+
+.answer{
+    background-color: transparent !important;
+}
+
+.answerbox{
+    text-align: center;
+}
+.d-flex{
+ column-gap: 10px;
+}
+
+.usertext{
+    /* color: white; */
+}
